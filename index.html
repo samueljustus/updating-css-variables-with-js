@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>updating css variables</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>update css variables with <span>js</span></h1>
+    <div class="range">
+    <label for="spacing">Spacing:</label><input type="range" id="slider" min="10" max="200"
+     data-sizing="px" name="spacing"></input>
+     <label for="blur">Blur:</label><input type="range" id="slider" min="0" max="25" 
+     data-sizing="px" name="blur"></input>
+        <label for="color">Base Color</label><input type="color" name="base" value="#ffc600" 
+        name="base"></input>
+    </div>
+
+    <div class="image">
+        <img src="img/pexels-david-skyrius-2224861.jpg"> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
